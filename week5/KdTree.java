@@ -123,12 +123,8 @@ public class KdTree {
 
             if (currNode.isVertical) {
                 currNode = currNode.point.x() >= p.x() ? currNode.leftNode : currNode.rightNode;
-//                if (this.rootNode.point.x() >= p.x()) this.rootNode = this.rootNode.leftNode;
-//                else this.rootNode = this.rootNode.rightNode;
             } else {
                 currNode = currNode.point.y() >= p.y() ? currNode.leftNode : currNode.rightNode;
-//                if (this.rootNode.point.y() >= p.y()) this.rootNode = this.rootNode.leftNode;
-//                else this.rootNode = this.rootNode.rightNode;
             }
         }
 

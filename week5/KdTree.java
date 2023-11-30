@@ -3,6 +3,8 @@ import edu.princeton.cs.algs4.RectHV;
 
 import java.util.ArrayList;
 
+// description https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php
+
 public class KdTree {
     private Node rootNode;
     private int size;

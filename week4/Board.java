@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// description https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php
+
 public class Board {
 
     private int size;
